@@ -45,4 +45,20 @@ The conveyor motor is controlled using Start, Stop, and Emergency Stop buttons, 
 
 **5. Ladder Logic Diagram**
 
-![Ladder Diagram](\PLCconveyor.png)
+![Ladder Diagram](PLCconveyor.png)
+
+**6. Testing Procedure**
+
+**1. ** Toggle Start ON then OFF &rarr; Motor stays running.
+**2. ** Toggle Color Sensor ON for a moment &rarr; Pusher activates for 1 second, then retracts
+**3. ** Toggle Jam Sensor ON &rarr; Motor stops immediately and flashing light comes on.
+**4. ** Press Stop or E-Stop &rarr; Motor stops, pusher disabled.
+
+**7. Results**
+
+- Sucessful simulation of a conveyor sorting process with safety interlocks
+- Demonstrated understanding of latching circuits, timer functions, and sensor-based control.
+
+**8. Link to Simulation**
+
+[PLC Fiddle Project](https://www.plcfiddle.com:/fiddles/68db4823-a15c-4575-ae76-710080def148)
