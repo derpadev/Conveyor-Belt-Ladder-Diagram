@@ -42,5 +42,7 @@ The conveyor motor is controlled using Start, Stop, and Emergency Stop buttons, 
 - While motor is ON, if the color sensor detects red, start a TON timer for 1 second.
 - Pusher actuator energizes for the timer duration, sorting the box
 - Blue boxes pass without pusher activation
-- 
-- 
+
+**5. Ladder Logic Diagram**
+
+![Ladder Diagram](\PLCconveyor.png)
